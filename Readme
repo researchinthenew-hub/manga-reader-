@@ -1,0 +1,107 @@
+# MangaFlow ⚡
+
+Read manga at your own pace with this sleek, feature-rich manga reader built with Streamlit.
+
+![MangaFlow Logo](mangaflow_logo.png)
+
+## Features
+
+- 📖 **Multiple View Modes**
+  - Vertical Scroll (continuous reading)
+  - Single Page View
+  - Two-Page Spread (like a real book)
+
+- ⚡ **Auto-Scroll**
+  - Hands-free reading experience
+  - Adjustable scroll speed (1-10)
+  - Real-time speed control while reading
+
+- 🎯 **Focus Mode**
+  - Press `F` for distraction-free reading
+  - Hides all UI elements
+  - Press `F` again to exit
+
+- 📂 **Multiple Format Support**
+  - PDF files
+  - CBZ (Comic Book Archive)
+  - ZIP files containing images
+
+- ⌨️ **Keyboard Shortcuts**
+  - `←` Previous page
+  - `→` Next page
+  - `F` Toggle focus mode
+  - `Space` Play/Pause auto-scroll
+
+- 🖱️ **Mouse Support**
+  - Scroll wheel navigation
+  - Click navigation in single/two-page modes
+
+- 📱 **Responsive Design**
+  - Works on desktop and mobile
+  - Adaptive layouts
+
+## Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/yourusername/mangaflow.git
+cd mangaflow
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the app:
+```bash
+streamlit run app.py
+```
+
+## Usage
+
+1. Click "📁 Upload Manga Files" in the sidebar
+2. Upload your manga files (PDF, CBZ, or ZIP)
+3. Choose your preferred view mode
+4. Adjust settings as needed
+5. Start reading!
+
+### Pro Tips
+
+- Use **Vertical Scroll** for continuous reading experience
+- Enable **Auto-Scroll** and adjust speed for hands-free reading
+- Press **F** to enter Focus Mode and eliminate all distractions
+- Use **Two-Page View** for a traditional manga reading experience
+
+## File Structure
+
+```
+mangaflow/
+├── app.py                  # Main application
+├── mangaflow_logo.png      # App logo/favicon
+├── requirements.txt        # Python dependencies
+└── README.md              # This file
+```
+
+## Requirements
+
+- Python 3.8 or higher
+- Streamlit 1.28.0 or higher
+- PyMuPDF 1.23.0 or higher
+- Pillow 10.0.0 or higher
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+## Support
+
+If you encounter any issues or have questions, please open an issue on GitHub.
+
+---
+
+Made with ❤️ for manga lovers
